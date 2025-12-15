@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def test_appError():
-    app_path = Path(__file__).resolve().parents[1] / "calculateur-app" / "app2.py"
+    app_path = Path(__file__).resolve().parents[1] / "app2.py"
 
     at = AppTest.from_file(app_path)
     at.run()
