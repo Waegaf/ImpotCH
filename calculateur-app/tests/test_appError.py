@@ -10,5 +10,6 @@ def test_appError():
     at = AppTest.from_file(app_path)
     at.run()
 
-
+    if at.exception is not None:
+        print(at.exception)
     assert at.exception is None
