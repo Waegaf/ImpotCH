@@ -15,4 +15,4 @@ def test_appError():
         for e in at.exception:
             print("----")
             print(e)
-    assert at.exception is None
+    assert len(at.exception) == 0
