@@ -12,4 +12,7 @@ def test_appError():
 
     if at.exception is not None:
         print(at.exception)
+        for e in at.exception:
+            print("----")
+            print(e)
     assert at.exception is None
