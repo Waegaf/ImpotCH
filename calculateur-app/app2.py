@@ -7,7 +7,7 @@ import pandas as pd
 def calc_charges_sociales(brut_mensuel):
     # approximation: AVS/AI/APG/AC + cotisation LPP moyenne part salarié
     AVS = 0.0525
-    AC = 0
+    AC = 0.13
     ANP = 0.02 # entre 1% et 3%
     LPP_moyenne = 0.10  # entre 7% et 18% selon âge et plan
 
